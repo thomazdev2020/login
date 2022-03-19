@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    filter: blur(10px);
+    filter: contrast(60%);
+}
+
+.logo {
+    width: 240px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    filter: contrast(100%);
+    box-sizing: border-box;
+    transform: translate(-50%);
+}
+
+.box {
+    width: 350px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #00000070;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.box h1 {
+    font-family: sans-serif;
+    float: left;
+    font-size: 40px;
+    margin-bottom: 40px;
+    border-bottom: solid 6px #3498db;
+    padding: 13px 0;
+}
+
+.input {
+    overflow: hidden;
+    border: none;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 20px;
+    padding: 8px;
+    border-bottom: solid 1px #3498db;
+    overflow: none;
+}
+
+.inpput i {
+    width: 26px;
+    float: left;
+    text-align: center;
+
+}
+
+.input input {
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    color: aliceblue;
+    width: 85%;
+    margin: 10px;
+}
+
+input::placeholder {
+    color: #ffffff99;
+}
+
+input:focus {
+    overflow: none;
+    outline: 0;
+}
+
+.btn {
+    width: 100%;
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    border: solid 2px #3498db;
+    background: none;
+    color: aliceblue;
+}
+
+.btn:hover {
+    background-color: #3498db90;
+    border: solid 2px #ffffff70;
+}
